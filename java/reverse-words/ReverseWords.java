@@ -1,12 +1,10 @@
-package com.google.jam.reverseWords;
+
 
 import java.io.InputStream;
 import java.util.Iterator;
 import java.util.LinkedList;
 
 public class ReverseWords {
-
-  
   
   public ReverseWords(String fileName) throws Exception {
     InputStream stream = getStream(fileName);
